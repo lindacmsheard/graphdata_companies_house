@@ -17,9 +17,9 @@ az config set --local defaults.group=<resource group> defaults.location=uksouth
 Download some PSC data as provided by companies house into the .gitignored ./data folder.
 It has the format of the file in [./sampledata](./sampledata)
 
-# Spike 1: Loading data into cosmosdb with python SDK (including rate-limiting)
+## Loading data into cosmosdb with python SDK (including rate-limiting)
 > Note: do this with ADF instead - much faster
-> 
+ 
 Create a conda environment from the provided environment.yml file:
 ```
 conda update conda
@@ -44,7 +44,7 @@ ACCOUNT_KEY=******
 
 Then review [./load_data_to_cosmos.ipynb](./load_data_to_cosmos.ipynb)
 
-## Spike 2: Visualising data directly with graphistry
+## Visualising data directly with graphistry
 
 Create a .env_graphistry file for working with Graphistry
 ```
