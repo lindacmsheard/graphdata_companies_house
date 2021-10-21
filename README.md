@@ -30,7 +30,7 @@ ACCOUNT_URI=https://<cosmos-db-account-name>.documents.azure.com:443/
 ACCOUNT_KEY=******
 ```
 
-Then review [./load_data_to_cosmos.ipynb](./load_data_to_cosmos.ipynb]
+Then review [./load_data_to_cosmos.ipynb](./load_data_to_cosmos.ipynb)
 
 ## Spike 2: Visualising data directly with graphistry
 
