@@ -2,6 +2,8 @@
 Some intital experimentation of working with Companies House data relating to Persons of Significant Control (PSC).
 The data is by its nature suitable for exploring graph databases and graph analytics techniques.
 
+Data source: http://download.companieshouse.gov.uk/en_pscdata.html
+
 So far:
 - Load data into cosmosdb with the python SDK, including rate limiting
 - Load data into cosmosdb with Azure Data Factory
