@@ -1,3 +1,13 @@
+# About
+Some intital experimentation of working with Companies House data relating to Persons of Significant Control (PSC).
+The data is by its nature suitable for exploring graph databases and graph analytics techniques.
+
+So far:
+- Load data into cosmosdb with the python SDK, including rate limiting
+- Load data into cosmosdb with Azure Data Factory
+- Visualise data with graphistry (from flat file via python)
+
+
 # Project config
 ```
 az config set --local defaults.group=<resource group> defaults.location=uksouth
@@ -6,8 +16,8 @@ Download some PSC data as provided by companies house into the .gitignored ./dat
 It has the format of the file in [./sampledata](./sampledata)
 
 # Spike 1: Loading data into cosmosdb with python SDK (including rate-limiting)
-> Note: do this with adf instead - much faster (todo, add sample pipeline to this repo)
-
+> Note: do this with ADF instead - much faster
+> 
 Create a conda environment from the provided environment.yml file:
 ```
 conda update conda
