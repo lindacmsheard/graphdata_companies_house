@@ -1,0 +1,12 @@
+name: cosmospy37
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7
+  - jsonlines
+  - ratelimit
+  - graphistry
+  - pip
+  - pip:
+    - azure-cosmos
